@@ -1,0 +1,96 @@
+.machine-card {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.machine-card__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 20px 15px;
+}
+
+.machine-card__title {
+  display: flex;
+  align-items: center;
+
+  column-gap: 10px;
+  margin-bottom: 5px;
+}
+
+.machine-card__id {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.machine-card__tags-row {
+  display: flex;
+  column-gap: 10px;
+}
+
+.machine-card__tag {
+  display: inline-block;
+  padding: 3px 5px;
+
+  font-size: 14px;
+  border: 1px solid;
+  border-color: #000;
+  border-radius: 5px;
+  color: blue;
+}
+
+.machine-card__tag--non-cash {
+  border-color: #777777;
+  color: #777777;
+}
+
+.machine-card__tag--coffee {
+  border-color: rgb(73, 7, 7);
+  color: rgb(73, 7, 7);
+}
+
+.machine-card__tag--juice {
+  border-color: orange;
+  color: orange;
+}
+
+.machine-card__adress-block {
+  margin-bottom: 5px;
+
+  font-size: 20px;
+  color: #277be9;
+}
+
+.machine-card__floor-block {
+  margin-bottom: 10px;
+
+  color: #27bfe9;
+  font-size: 18px;
+}
+
+.machine-card__work-time {
+  display: inline-block;
+  padding: 5px 10px;
+
+  border: 1px solid #27bfe9;
+  border-radius: 5px;
+  color: #27bfe9;
+  background-color: inherit;
+
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.machine-card__map {
+  width: 350px;
+  height: 200px;
+}
+
+.machine-card__map img {
+  border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+@import "./reset.css";
+@import "./machine-card.css";
+@import "./search-block.css";
+@import "./not-found-block.css";
+@import "./work-time-card.css";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2e2e2e;
+}
+
+.section-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-list__content {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.section-list__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.machines-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 15px;
+}
+
+.loader-block {
+  padding-top: 100px;
+
+  text-align: center;
+  font-size: 26px;
+}
